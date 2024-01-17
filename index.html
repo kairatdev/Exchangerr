@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+     body{
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        margin-top: 250px; 
+        background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1440/1907/Many-packs-of-US-dollars-money-currency_1920x1440.jpg);
+        
+     } 
+     h1{
+        border: 4px solid;
+        border-radius: 10px 10px 10px 10px ;
+        background-color: goldenrod;
+        
+     }
+     select:hover{
+        transform: scale(1.2);
+        transition: 1s;
+        cursor: pointer;
+        box-shadow: 0px 0px 15px 15px rgb(195, 165, 18);
+     }
+     input:hover{
+        transform: scale(1.2);
+        transition: 1s;
+        cursor: pointer;
+        box-shadow: 0px 0px 15px 15px rgb(3, 200, 244);
+     }
+
+     button:hover{
+        transform: scale(1.2);
+        transition: 1s;
+        cursor: pointer;
+        box-shadow: 0px 0px 15px 15px rgb(6, 163, 220);
+     }
+    
+    
+
+    
+    
+
+</style>
+<body>
+    
+    <div class="a" >
+        <form  action="">
+            <label for="" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(7, 7, 7); background-color:green;" class="form-control">АКЧА АЛМАШТЫРУУ</label>
+            <br>
+            <select  id="currency" style="color: rgb(64, 6, 237); background-color: darkgoldenrod;" class="form-select">
+                <option value="88.5">USD</option>
+                <option value="1.2">RUB</option>
+                <option value="24">RIAL</option>
+                <option value="0.012">KGZ</option>
+            </select>
+            <br>
+
+            <input style="background-color: cadetblue;  " type="number" id="mount" class="input-group-text"   placeholder="KG">
+        </form>
+        <br>
+   
+    <div>
+        <button style="margin-left: 40px;"  id="sum" class="btn btn-primary" >Алмаштыруу</button>
+    </div>
+    <br>
+    <h1 id="result">:</h1>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    
+    
+</body>
+</html>
